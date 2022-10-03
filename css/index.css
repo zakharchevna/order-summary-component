@@ -1,0 +1,49 @@
+:root {
+   --body-background: hsl(225, 100%, 94%);
+   --nft-item-title: hsl(0, 0%, 100%);
+   --nft-item-price: hsl(178, 100%, 50%);
+   --nft-item-color: hsl(215, 51%, 70%);
+   --order-summary-shadow: hsl(224, 23%, 55%);
+   --nft-item-border: hsl(215, 32%, 27%);
+   --content-background: #fff;
+   --footer-links: hsl(240, 3%, 93%);
+}
+body {
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 16px;
+   background-image: url('/images/pattern-background-desktop.svg');
+   background-repeat: no-repeat;
+   background-position: 100%;
+   background-size: cover;
+   background-color: var(--body-background);
+   max-width: 1100px;
+   margin: auto;
+}
+.order-summary {
+   margin: 70px auto;
+   max-width: 350px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 50px var(--order-summary-shadow);
+}
+.order-summary img {
+   border-radius: 10px 10px 0 0;
+   max-width: 100%;
+}
+.order-summary-content {
+   padding: 25px 0;
+   text-align: center;
+   /* background-color: var(--content-background); */
+}
+
+
+
+
+
+.attribution {
+   font-size: 12px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
